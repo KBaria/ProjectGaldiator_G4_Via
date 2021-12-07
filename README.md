@@ -5,7 +5,7 @@
 
 **TestData.xlsx** present in DataFiles folder
 
-###Reports###
+##Reports##
 
 **Login test report** : [https://kbaria.github.io/ProjectGaldiator_G4_Via/extentreport/Login_test.html]
 
