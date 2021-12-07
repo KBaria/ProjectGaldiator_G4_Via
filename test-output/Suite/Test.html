@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 07 14:26:07 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>914 seconds (914223 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcase.FlightBookingPageTest.validateInvalidFlightBooking()'><b>validateInvalidFlightBooking</b><br>Test class: com.testcase.FlightBookingPageTest<br>Parameters: Mr, Jim, Halpert, 9167290021, JHalpertgmail.com</td>
+<td></td>
+<td>17</td>
+<td>com.testcase.FlightBookingPageTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateInvalidHotelBooking()'><b>validateInvalidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, Jim, Halpert, ABCDE1234F, _, JHalpert@gmail.com</td>
+<td></td>
+<td>26</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.FlightBookingPageTest.validateValidFligtBooking()'><b>validateValidFligtBooking</b><br>Test class: com.testcase.FlightBookingPageTest<br>Parameters: Mr, Jim, Halpert, 99675990331, JHalpert@gmail.com</td>
+<td></td>
+<td>14</td>
+<td>com.testcase.FlightBookingPageTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.testcase.FlightSearchPageTest.validateInvalidFlightSearch()'><b>validateInvalidFlightSearch</b><br>Test class: com.testcase.FlightSearchPageTest<br>Parameters: Mumbai, </td>
+<td></td>
+<td>3</td>
+<td>com.testcase.FlightSearchPageTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateInvalidHotelBooking()'><b>validateInvalidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, Jim, Halpert, _, 9967599031, JHalpert@gmail.com</td>
+<td></td>
+<td>15</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.LoginTest.validateValidLogin()'><b>validateValidLogin</b><br>Test class: com.testcase.LoginTest<br>Parameters: KMalone@gmail.com, Skyrim101@</td>
+<td></td>
+<td>6</td>
+<td>com.testcase.LoginTest@10d59286</td></tr>
+<tr>
+<td title='com.testcase.LoginTest.validateInvalidLogin()'><b>validateInvalidLogin</b><br>Test class: com.testcase.LoginTest<br>Parameters: , Skyrim101@</td>
+<td></td>
+<td>0</td>
+<td>com.testcase.LoginTest@10d59286</td></tr>
+<tr>
+<td title='com.testcase.RegistrationTest.validateValidRegistration()'><b>validateValidRegistration</b><br>Test class: com.testcase.RegistrationTest<br>Parameters: Michael Scott, MScott87@gmail.com, SKyrim101@, 9865540451</td>
+<td></td>
+<td>12</td>
+<td>com.testcase.RegistrationTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.testcase.FlightSearchPageTest.validateValidFlightSearch()'><b>validateValidFlightSearch</b><br>Test class: com.testcase.FlightSearchPageTest<br>Parameters: Mumbai, Chennai</td>
+<td></td>
+<td>4</td>
+<td>com.testcase.FlightSearchPageTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateValidHotelBooking()'><b>validateValidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, Jim, Halpert, ABCDE1234F, 9967599031, JHalpert@gmail.com</td>
+<td></td>
+<td>12</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.HotelSearchTest.validateInvalidHotelSearch()'><b>validateInvalidHotelSearch</b><br>Test class: com.testcase.HotelSearchTest<br>Parameters: Vice City 1986</td>
+<td></td>
+<td>20</td>
+<td>com.testcase.HotelSearchTest@5123a213</td></tr>
+<tr>
+<td title='com.testcase.RegistrationTest.validateInvalidRegistration()'><b>validateInvalidRegistration</b><br>Test class: com.testcase.RegistrationTest<br>Parameters: Creed Bratton, Cbrattongmail.com, Skyrim101@, 9865524980</td>
+<td></td>
+<td>1</td>
+<td>com.testcase.RegistrationTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.testcase.FlightBookingPageTest.validateInvalidFlightBooking()'><b>validateInvalidFlightBooking</b><br>Test class: com.testcase.FlightBookingPageTest<br>Parameters: Mr, Jim, Halpert, 9999, JHalpert@gmail.com</td>
+<td></td>
+<td>14</td>
+<td>com.testcase.FlightBookingPageTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.testcase.FlightSearchPageTest.validateInvalidFlightSearch()'><b>validateInvalidFlightSearch</b><br>Test class: com.testcase.FlightSearchPageTest<br>Parameters: , Amritsar</td>
+<td></td>
+<td>4</td>
+<td>com.testcase.FlightSearchPageTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.testcase.FlightBookingPageTest.validateInvalidFlightBooking()'><b>validateInvalidFlightBooking</b><br>Test class: com.testcase.FlightBookingPageTest<br>Parameters: Mr, 47, 99, 9999, JHalpertgmail.com</td>
+<td></td>
+<td>16</td>
+<td>com.testcase.FlightBookingPageTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.testcase.RegistrationTest.validateInvalidRegistration()'><b>validateInvalidRegistration</b><br>Test class: com.testcase.RegistrationTest<br>Parameters: Meredith12, meredith@gmail.com, Skyrim101@, 9967433021</td>
+<td></td>
+<td>2</td>
+<td>com.testcase.RegistrationTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.testcase.LoginTest.validateInvalidLogin()'><b>validateInvalidLogin</b><br>Test class: com.testcase.LoginTest<br>Parameters: KMalonegmail.com, Skyrim101@</td>
+<td></td>
+<td>1</td>
+<td>com.testcase.LoginTest@10d59286</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateInvalidHotelBooking()'><b>validateInvalidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, _, Halpert, ABCDE1234F, 9967599031, JHalpert@gmail.com</td>
+<td></td>
+<td>28</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.HotelSearchTest.validateValidHotelSearch()'><b>validateValidHotelSearch</b><br>Test class: com.testcase.HotelSearchTest<br>Parameters: Manali</td>
+<td></td>
+<td>10</td>
+<td>com.testcase.HotelSearchTest@5123a213</td></tr>
+<tr>
+<td title='com.testcase.FlightBookingPageTest.validateInvalidFlightBooking()'><b>validateInvalidFlightBooking</b><br>Test class: com.testcase.FlightBookingPageTest<br>Parameters: Mr, Jim, 99, 9167290021, JHalpert@gmail.com</td>
+<td></td>
+<td>20</td>
+<td>com.testcase.FlightBookingPageTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateInvalidHotelBooking()'><b>validateInvalidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, Jim, _, ABCDE1234F, 9967599031, JHalpert@gmail.com</td>
+<td></td>
+<td>15</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.FlightSearchPageTest.validateInvalidFlightSearch()'><b>validateInvalidFlightSearch</b><br>Test class: com.testcase.FlightSearchPageTest<br>Parameters: WonderLand, 420</td>
+<td></td>
+<td>46</td>
+<td>com.testcase.FlightSearchPageTest@5fdba6f9</td></tr>
+<tr>
+<td title='com.testcase.RegistrationTest.validateInvalidRegistration()'><b>validateInvalidRegistration</b><br>Test class: com.testcase.RegistrationTest<br>Parameters: Kevin Malone, KevMalone@gmail.com, Skyrim, 9894584747</td>
+<td></td>
+<td>1</td>
+<td>com.testcase.RegistrationTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.testcase.LoginTest.validateInvalidLogin()'><b>validateInvalidLogin</b><br>Test class: com.testcase.LoginTest<br>Parameters: KMalone@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>com.testcase.LoginTest@10d59286</td></tr>
+<tr>
+<td title='com.testcase.RegistrationTest.validateInvalidRegistration()'><b>validateInvalidRegistration</b><br>Test class: com.testcase.RegistrationTest<br>Parameters: Mose Shrute, MShrute@gmail.com, Skyrim101@, 888000</td>
+<td></td>
+<td>1</td>
+<td>com.testcase.RegistrationTest@6fb0d3ed</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateInvalidHotelBooking()'><b>validateInvalidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, Jim, Halpert, ABCDE1234F, 9967599031, _</td>
+<td></td>
+<td>11</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.FlightBookingPageTest.validateInvalidFlightBooking()'><b>validateInvalidFlightBooking</b><br>Test class: com.testcase.FlightBookingPageTest<br>Parameters: Mr, 47, Halpert, 9167290021, JHalpert@gmail.com</td>
+<td></td>
+<td>18</td>
+<td>com.testcase.FlightBookingPageTest@6dde5c8c</td></tr>
+<tr>
+<td title='com.testcase.HotelBookingTest.validateInvalidHotelBooking()'><b>validateInvalidHotelBooking</b><br>Test class: com.testcase.HotelBookingTest<br>Parameters: Mr, _, _, ABCDE1234, 998877, JHalpertgmailcom</td>
+<td></td>
+<td>16</td>
+<td>com.testcase.HotelBookingTest@4fcd19b3</td></tr>
+<tr>
+<td title='com.testcase.HotelSearchTest.validateValidHotelSearch()'><b>validateValidHotelSearch</b><br>Test class: com.testcase.HotelSearchTest<br>Parameters: Hotel Rock Manali</td>
+<td></td>
+<td>4</td>
+<td>com.testcase.HotelSearchTest@5123a213</td></tr>
+<tr>
+<td title='com.testcase.LoginTest.validateInvalidLogin()'><b>validateInvalidLogin</b><br>Test class: com.testcase.LoginTest<br>Parameters: KMalone@gmail.com, Skyrim</td>
+<td></td>
+<td>0</td>
+<td>com.testcase.LoginTest@10d59286</td></tr>
+</table><p>
+</body>
+</html>

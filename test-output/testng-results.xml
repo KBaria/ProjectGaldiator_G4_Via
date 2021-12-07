@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="40" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="914223" started-at="2021-12-07T14:26:07 IST" finished-at="2021-12-07T14:41:21 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="914223" started-at="2021-12-07T14:26:07 IST" finished-at="2021-12-07T14:41:21 IST">
+      <class name="com.testcase.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="setUp" is-config="true" duration-ms="13923" started-at="2021-12-07T14:33:36 IST" finished-at="2021-12-07T14:33:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.LoginTest@10d59286]" name="validateInvalidLogin" duration-ms="1927" started-at="2021-12-07T14:33:50 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KMalonegmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skyrim101@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="tearDown" is-config="true" duration-ms="169" started-at="2021-12-07T14:33:51 IST" finished-at="2021-12-07T14:33:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="setUp" is-config="true" duration-ms="13110" started-at="2021-12-07T14:33:52 IST" finished-at="2021-12-07T14:34:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.LoginTest@10d59286]" name="validateInvalidLogin" duration-ms="715" started-at="2021-12-07T14:34:05 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:34:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KMalone@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skyrim]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="tearDown" is-config="true" duration-ms="2048" started-at="2021-12-07T14:34:05 IST" finished-at="2021-12-07T14:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="setUp" is-config="true" duration-ms="14136" started-at="2021-12-07T14:34:08 IST" finished-at="2021-12-07T14:34:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.LoginTest@10d59286]" name="validateInvalidLogin" duration-ms="745" started-at="2021-12-07T14:34:22 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:34:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KMalone@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="tearDown" is-config="true" duration-ms="1152" started-at="2021-12-07T14:34:22 IST" finished-at="2021-12-07T14:34:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="setUp" is-config="true" duration-ms="11143" started-at="2021-12-07T14:34:24 IST" finished-at="2021-12-07T14:34:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.LoginTest@10d59286]" name="validateInvalidLogin" duration-ms="686" started-at="2021-12-07T14:34:35 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:34:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skyrim101@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="tearDown" is-config="true" duration-ms="4471" started-at="2021-12-07T14:34:35 IST" finished-at="2021-12-07T14:34:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="setUp" is-config="true" duration-ms="13435" started-at="2021-12-07T14:34:40 IST" finished-at="2021-12-07T14:34:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.LoginTest@10d59286]" name="validateValidLogin" duration-ms="6321" started-at="2021-12-07T14:34:54 IST" data-provider="getValidData" finished-at="2021-12-07T14:35:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KMalone@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Skyrim101@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.LoginTest@10d59286]" name="tearDown" is-config="true" duration-ms="859" started-at="2021-12-07T14:35:00 IST" finished-at="2021-12-07T14:35:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.LoginTest -->
+      <class name="com.testcase.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="setUp" is-config="true" duration-ms="13092" started-at="2021-12-07T14:35:01 IST" finished-at="2021-12-07T14:35:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="validateInvalidRegistration" duration-ms="2362" started-at="2021-12-07T14:35:14 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:35:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meredith12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meredith@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Skyrim101@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9967433021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="274" started-at="2021-12-07T14:35:16 IST" finished-at="2021-12-07T14:35:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="setUp" is-config="true" duration-ms="13754" started-at="2021-12-07T14:35:17 IST" finished-at="2021-12-07T14:35:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="validateInvalidRegistration" duration-ms="1553" started-at="2021-12-07T14:35:30 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:35:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Creed Bratton]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cbrattongmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Skyrim101@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9865524980]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="373" started-at="2021-12-07T14:35:32 IST" finished-at="2021-12-07T14:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="setUp" is-config="true" duration-ms="16931" started-at="2021-12-07T14:35:32 IST" finished-at="2021-12-07T14:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="validateInvalidRegistration" duration-ms="1345" started-at="2021-12-07T14:35:49 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:35:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kevin Malone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KevMalone@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Skyrim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9894584747]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="1004" started-at="2021-12-07T14:35:51 IST" finished-at="2021-12-07T14:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="setUp" is-config="true" duration-ms="13028" started-at="2021-12-07T14:35:52 IST" finished-at="2021-12-07T14:36:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="validateInvalidRegistration" duration-ms="1291" started-at="2021-12-07T14:36:05 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:36:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mose Shrute]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MShrute@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Skyrim101@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[888000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="5041" started-at="2021-12-07T14:36:06 IST" finished-at="2021-12-07T14:36:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="setUp" is-config="true" duration-ms="13681" started-at="2021-12-07T14:36:11 IST" finished-at="2021-12-07T14:36:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="validateValidRegistration" duration-ms="12047" started-at="2021-12-07T14:36:25 IST" data-provider="getValidData" finished-at="2021-12-07T14:36:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael Scott]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MScott87@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SKyrim101@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9865540451]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.RegistrationTest@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="4211" started-at="2021-12-07T14:36:37 IST" finished-at="2021-12-07T14:36:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.RegistrationTest -->
+      <class name="com.testcase.FlightBookingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="setUp" is-config="true" duration-ms="13132" started-at="2021-12-07T14:36:41 IST" finished-at="2021-12-07T14:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="validateInvalidFlightBooking" duration-ms="18623" started-at="2021-12-07T14:36:54 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:37:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9167290021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="4152" started-at="2021-12-07T14:37:13 IST" finished-at="2021-12-07T14:37:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="setUp" is-config="true" duration-ms="12056" started-at="2021-12-07T14:37:17 IST" finished-at="2021-12-07T14:37:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="validateInvalidFlightBooking" duration-ms="20273" started-at="2021-12-07T14:37:29 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:37:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9167290021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="333" started-at="2021-12-07T14:37:50 IST" finished-at="2021-12-07T14:37:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="setUp" is-config="true" duration-ms="14388" started-at="2021-12-07T14:37:50 IST" finished-at="2021-12-07T14:38:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="validateInvalidFlightBooking" duration-ms="14465" started-at="2021-12-07T14:38:04 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:38:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="1056" started-at="2021-12-07T14:38:19 IST" finished-at="2021-12-07T14:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="setUp" is-config="true" duration-ms="16622" started-at="2021-12-07T14:38:20 IST" finished-at="2021-12-07T14:38:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="validateInvalidFlightBooking" duration-ms="17177" started-at="2021-12-07T14:38:36 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:38:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9167290021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JHalpertgmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="319" started-at="2021-12-07T14:38:54 IST" finished-at="2021-12-07T14:38:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="setUp" is-config="true" duration-ms="13144" started-at="2021-12-07T14:38:54 IST" finished-at="2021-12-07T14:39:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="validateInvalidFlightBooking" duration-ms="16354" started-at="2021-12-07T14:39:07 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:39:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JHalpertgmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="915" started-at="2021-12-07T14:39:23 IST" finished-at="2021-12-07T14:39:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="setUp" is-config="true" duration-ms="11727" started-at="2021-12-07T14:39:24 IST" finished-at="2021-12-07T14:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidFligtBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="validateValidFligtBooking" duration-ms="14912" started-at="2021-12-07T14:39:36 IST" data-provider="getValidData" finished-at="2021-12-07T14:39:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[99675990331]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidFligtBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightBookingPageTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="423" started-at="2021-12-07T14:39:51 IST" finished-at="2021-12-07T14:39:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.FlightBookingPageTest -->
+      <class name="com.testcase.HotelSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="setUp" is-config="true" duration-ms="15163" started-at="2021-12-07T14:39:52 IST" finished-at="2021-12-07T14:40:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelSearch(java.lang.String)[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="validateInvalidHotelSearch" duration-ms="20885" started-at="2021-12-07T14:40:07 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:40:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vice City 1986]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="tearDown" is-config="true" duration-ms="1736" started-at="2021-12-07T14:40:28 IST" finished-at="2021-12-07T14:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="setUp" is-config="true" duration-ms="18488" started-at="2021-12-07T14:40:30 IST" finished-at="2021-12-07T14:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidHotelSearch(java.lang.String)[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="validateValidHotelSearch" duration-ms="10464" started-at="2021-12-07T14:40:48 IST" data-provider="getValidData" finished-at="2021-12-07T14:40:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidHotelSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="tearDown" is-config="true" duration-ms="4364" started-at="2021-12-07T14:40:59 IST" finished-at="2021-12-07T14:41:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="setUp" is-config="true" duration-ms="13456" started-at="2021-12-07T14:41:03 IST" finished-at="2021-12-07T14:41:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidHotelSearch(java.lang.String)[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="validateValidHotelSearch" duration-ms="4277" started-at="2021-12-07T14:41:16 IST" data-provider="getValidData" finished-at="2021-12-07T14:41:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hotel Rock Manali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidHotelSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelSearchTest@5123a213]" name="tearDown" is-config="true" duration-ms="612" started-at="2021-12-07T14:41:21 IST" finished-at="2021-12-07T14:41:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.HotelSearchTest -->
+      <class name="com.testcase.FlightSearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="setUp" is-config="true" duration-ms="13959" started-at="2021-12-07T14:31:16 IST" finished-at="2021-12-07T14:31:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightSearch(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="validateInvalidFlightSearch" duration-ms="3083" started-at="2021-12-07T14:31:30 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:31:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="360" started-at="2021-12-07T14:31:34 IST" finished-at="2021-12-07T14:31:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="setUp" is-config="true" duration-ms="18588" started-at="2021-12-07T14:31:34 IST" finished-at="2021-12-07T14:31:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightSearch(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="validateInvalidFlightSearch" duration-ms="4119" started-at="2021-12-07T14:31:52 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:31:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amritsar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="7177" started-at="2021-12-07T14:31:57 IST" finished-at="2021-12-07T14:32:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="setUp" is-config="true" duration-ms="16027" started-at="2021-12-07T14:32:04 IST" finished-at="2021-12-07T14:32:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidFlightSearch(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="validateInvalidFlightSearch" duration-ms="46829" started-at="2021-12-07T14:32:20 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:33:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WonderLand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[420]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidFlightSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="741" started-at="2021-12-07T14:33:07 IST" finished-at="2021-12-07T14:33:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="setUp" is-config="true" duration-ms="20228" started-at="2021-12-07T14:33:08 IST" finished-at="2021-12-07T14:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidFlightSearch(java.lang.String,java.lang.String)[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="validateValidFlightSearch" duration-ms="4847" started-at="2021-12-07T14:33:28 IST" data-provider="getValidData" finished-at="2021-12-07T14:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidFlightSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.FlightSearchPageTest@5fdba6f9]" name="tearDown" is-config="true" duration-ms="2676" started-at="2021-12-07T14:33:33 IST" finished-at="2021-12-07T14:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.FlightSearchPageTest -->
+      <class name="com.testcase.HotelBookingTest">
+        <test-method status="PASS" signature="ExtentReportSetup()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="ExtentReportSetup" is-config="true" duration-ms="1003" started-at="2021-12-07T14:26:06 IST" finished-at="2021-12-07T14:26:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="30627" started-at="2021-12-07T14:26:10 IST" finished-at="2021-12-07T14:26:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateInvalidHotelBooking" duration-ms="28510" started-at="2021-12-07T14:26:40 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:27:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9967599031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="6199" started-at="2021-12-07T14:27:09 IST" finished-at="2021-12-07T14:27:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="45933" started-at="2021-12-07T14:27:15 IST" finished-at="2021-12-07T14:28:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateInvalidHotelBooking" duration-ms="15580" started-at="2021-12-07T14:28:01 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:28:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9967599031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="1146" started-at="2021-12-07T14:28:16 IST" finished-at="2021-12-07T14:28:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="20731" started-at="2021-12-07T14:28:18 IST" finished-at="2021-12-07T14:28:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateInvalidHotelBooking" duration-ms="15573" started-at="2021-12-07T14:28:38 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:28:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9967599031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="4171" started-at="2021-12-07T14:28:54 IST" finished-at="2021-12-07T14:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="14135" started-at="2021-12-07T14:28:58 IST" finished-at="2021-12-07T14:29:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateInvalidHotelBooking" duration-ms="26593" started-at="2021-12-07T14:29:12 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:29:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="1316" started-at="2021-12-07T14:29:39 IST" finished-at="2021-12-07T14:29:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="18790" started-at="2021-12-07T14:29:40 IST" finished-at="2021-12-07T14:29:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateInvalidHotelBooking" duration-ms="11216" started-at="2021-12-07T14:29:59 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:30:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9967599031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="217" started-at="2021-12-07T14:30:10 IST" finished-at="2021-12-07T14:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="16119" started-at="2021-12-07T14:30:10 IST" finished-at="2021-12-07T14:30:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateInvalidHotelBooking" duration-ms="16602" started-at="2021-12-07T14:30:26 IST" data-provider="getInvalidData" finished-at="2021-12-07T14:30:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDE1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[998877]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JHalpertgmailcom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="4174" started-at="2021-12-07T14:30:43 IST" finished-at="2021-12-07T14:30:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="setUp" is-config="true" duration-ms="15461" started-at="2021-12-07T14:30:48 IST" finished-at="2021-12-07T14:31:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateValidHotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="validateValidHotelBooking" duration-ms="12740" started-at="2021-12-07T14:31:03 IST" data-provider="getValidData" finished-at="2021-12-07T14:31:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Halpert]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9967599031]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JHalpert@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidHotelBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="426" started-at="2021-12-07T14:31:16 IST" finished-at="2021-12-07T14:31:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CloseReportSetup()[pri:0, instance:com.testcase.HotelBookingTest@4fcd19b3]" name="CloseReportSetup" is-config="true" duration-ms="1875" started-at="2021-12-07T14:41:22 IST" finished-at="2021-12-07T14:41:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseReportSetup -->
+      </class> <!-- com.testcase.HotelBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
